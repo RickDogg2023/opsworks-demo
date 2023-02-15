@@ -1,4 +1,4 @@
-#https://learn.chef.io/modules/learn-the-basics/ubuntu/bring-your-own-system/configure-a-package-and-service#/
+#Project 2 Final Cloud Deployment Programmatic Approach to use OpsWorks Stack and Chef using ubuntu and not windows server.#/
 apt_update 'Update the apt cache daily' do
   frequency 86_400
   action :periodic
